@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0, 200px;
+  padding: 0;
+  overflow: visible;
+  font-stretch: expanded;
+}
+
+li {
+
+  float: left;
+}
+
+li a {
+  display:block;
+  padding: 37px;
+  color: black;
+}
+li a:hover {
+  background-color: blue;
+}
+.container {
+  position: absolute;
+  text-align: left;
+  color: black;
+}
+.website{
+  margin: 44px 270px;
+    padding: 31px 21px;
+}
+.navbar{
+  font-size: 23px;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+#name{
+  font-size: 50px;
+}
+@media(max-width:460px) {
+  .website{
+  margin: -21px 33px;
+    padding: 26px 18px;
+}
+}
+
+nav{
+  display: inline-block;
+}
